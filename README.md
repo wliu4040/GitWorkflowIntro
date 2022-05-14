@@ -25,7 +25,10 @@ After creating your fork of this repository, add an upstream link to the origina
 
 Create your own feature branch where you will commit your changes
 
-```git checkout -b <your_branch_name>```
+```
+git branch <your_branch_name>
+git checkout <your_branch_name>
+```
 
 Frequently pull the latest changes from the main branch. 
 
