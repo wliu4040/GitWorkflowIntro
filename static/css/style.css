@@ -12,6 +12,8 @@ img {
 
 .student-container {
     width: 225px;
+    min-height: 500px;
+    padding: 0 10px;  
     float: left; 
 }
 
