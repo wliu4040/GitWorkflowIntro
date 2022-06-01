@@ -21,7 +21,7 @@ This repo serves as an activity for students to practice the common git workflow
 
 After creating your fork of this repository, add an upstream link to the original repo. 
 
-```git remote add upstream https://github.com/computingtalent/GitWorkflowIntro.git```
+```git remote add upstream https://github.com/CTI-CodeDay/GitWorkflowIntro.git```
 
 Create your own feature branch where you will commit your changes
 
