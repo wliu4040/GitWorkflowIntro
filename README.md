@@ -36,6 +36,6 @@ Frequently pull the latest changes from the main branch.
 git checkout main
 git pull upstream main
 git checkout <your_branch_name>
-git rebase main
+git merge main
 ```
 
