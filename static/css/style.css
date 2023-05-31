@@ -8,6 +8,7 @@ img {
     width: 200px; 
     height: 200px;
     margin: 10px 0;  
+    /* object-fit: cover;  - When the image is stretched this attribute makes the image reach a resolution that accomodates the container's (w x l) */
 }
 
 .student-container {
