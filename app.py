@@ -20,3 +20,7 @@ def cohort_2023():
 @app.route("/nat_uts")
 def team_nat_uts():
     return render_template('teams/nat_uts.html')
+
+@app.route("/sleeper")
+def team_sleeper():
+    return render_template('teams/sleeper.html')
