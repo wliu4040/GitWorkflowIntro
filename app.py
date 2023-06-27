@@ -23,4 +23,8 @@ def team_nat_uts():
 
 @app.route("/nick_val")
 def team_nick_val():
-    return render_template('teams/nick_val.html') 
+    return render_template('teams/nick_val.html')
+
+@app.route("/luke_noah_maya")
+def team_luke_noah_maya():
+    return render_template('teams/luke_noah_maya.html')
