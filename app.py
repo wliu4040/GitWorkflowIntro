@@ -23,3 +23,19 @@ def team_nat_uts():
 @app.route("/james_david")
 def team_james_david():
     return render_template('teams/james_david.html')
+
+@app.route("/dong_zach_dar")
+def team_dong_zach_dar():
+    return render_template('teams/dong_zach_dar.html')
+
+@app.route("/alison_rob_shawn")
+def team_alison_rob_shawn():
+    return render_template('teams/alison_rob_shawn.html')
+
+@app.route("/nick_val")
+def team_nick_val():
+    return render_template('teams/nick_val.html')
+
+@app.route("/luke_noah_maya")
+def team_luke_noah_maya():
+    return render_template('teams/luke_noah_maya.html')
