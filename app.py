@@ -19,11 +19,15 @@ def cohort_2023():
 @app.route("/nat_uts")
 def team_nat_uts():
     return render_template('teams/nat_uts.html')
+
+@app.route("/team_michael_rahul_magiber")
+def team_michael_rahul_magiber():
+    return render_template('teams/team_michael_rahul_magiber.html')
   
 @app.route("/sleeper")
 def team_sleeper():
     return render_template('teams/sleeper.html')
-=======
+
 @app.route("/Team 10")
 def team10():
     return render_template('teams/team10.html')
