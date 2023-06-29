@@ -20,6 +20,10 @@ def cohort_2023():
 def team_nat_uts():
     return render_template('teams/nat_uts.html')
 
+@app.route("/ian_brenden_elias")
+def team_ian_brenden_elias():
+    return render_template('teams/ian_brenden_elias.html')
+
 @app.route("/edg_and_edg")
 def team_edg_and_edg():
     return render_template('teams/edg_and_edg.html')
