@@ -20,6 +20,10 @@ def cohort_2023():
 def team_nat_uts():
     return render_template('teams/nat_uts.html')
 
+@app.route("/trav_con")
+def team_trav_con():
+    return render_template('teams/trav_con.html')
+
 @app.route("/team_michael_rahul_magiber")
 def team_michael_rahul_magiber():
     return render_template('teams/team_michael_rahul_magiber.html')
