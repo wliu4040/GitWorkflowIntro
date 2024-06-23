@@ -123,5 +123,5 @@ def team_brian_jia_honghao():
     return render_template('teams/brian_jia_honghao.html')
 
 @app.route("/pramodya_sherman")
-def team_brian_jia_honghao():
+def team_pramodya_sherman():
     return render_template('teams/pramo_sher.html')
