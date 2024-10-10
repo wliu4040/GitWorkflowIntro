@@ -124,4 +124,4 @@ def team_brian_jia_honghao():
 
 @app.route("/team_sydney_ryan_peiwan")
 def team_sydney_ryan_peiwan():
-    return render_template('teams/team_sydney_ryan_peiwan.html')
+    return render_template('teams/team_pei-wan.html')
