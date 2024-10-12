@@ -21,10 +21,6 @@ def cohort_2023():
 def cohort_2024():
     return render_template('students_2024.html')
 
-@app.route("/team_msj")
-def team_mjs():
-    return render_template('teams/msj.html')
-
 @app.route("/nat_uts")
 def team_nat_uts():
     return render_template('teams/nat_uts.html')
@@ -124,3 +120,7 @@ def team_jin_allison_saad():
 @app.route("/brian_jia_honghao")
 def team_brian_jia_honghao():
     return render_template('teams/brian_jia_honghao.html')
+
+@app.route("/team_msj")
+def team_mjs():
+    return render_template('teams/msj.html')
