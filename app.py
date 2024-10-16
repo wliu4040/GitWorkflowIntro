@@ -124,3 +124,23 @@ def team_brian_jia_honghao():
 @app.route("/team_msj")
 def team_mjs():
     return render_template('teams/msj.html')
+  
+@app.route("/matthew_dale_suchith")
+def matthew_dale_suchith():
+    return render_template('teams/matthew_dale_suchith.html')
+
+@app.route("/tri_sta_jag")
+def team_tri_sta_jag():
+    return render_template('teams/tri_sta_jag.html')
+
+@app.route("/mai_andy_mahdi")
+def team_mai_andy_mahdi():
+    return render_template('teams/mai_andy_mahdi.html')
+
+@app.route("/nic_ridhima_anvi")
+def nic_ridhima_anvi():
+    return render_template('teams/nic_ridhima_anvi.html')
+
+@app.route("/eddie_syn_ved")
+def team_E_S_V():
+    return render_template('teams/eddie_syn_ved.html')
