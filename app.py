@@ -128,6 +128,10 @@ def team_jin_allison_saad():
 def team_brian_jia_honghao():
     return render_template('teams/brian_jia_honghao.html')
 
+@app.route("/colinsebasaliyah")
+def colinsebasaliyah():
+    return render_template('teams/colinsebasaliyah.html')
+  
 @app.route("/team_msj")
 def team_mjs():
     return render_template('teams/msj.html')
