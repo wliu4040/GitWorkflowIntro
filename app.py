@@ -24,10 +24,13 @@ def team_arm_phil_dyl():
 def cohort_2024():
     return render_template('students_2024.html')
 
-
 @app.route("/nat_uts")
 def team_nat_uts():
     return render_template('teams/nat_uts.html')
+
+@app.route("/aryan_ethan_richie")
+def team_aryan_ethan_richie():
+    return render_template('teams/aryan_ethan_richie.html')
 
 @app.route("/sun_edm")
 def team_sun_edm():
@@ -124,3 +127,27 @@ def team_jin_allison_saad():
 @app.route("/brian_jia_honghao")
 def team_brian_jia_honghao():
     return render_template('teams/brian_jia_honghao.html')
+
+@app.route("/team_msj")
+def team_mjs():
+    return render_template('teams/msj.html')
+  
+@app.route("/matthew_dale_suchith")
+def matthew_dale_suchith():
+    return render_template('teams/matthew_dale_suchith.html')
+
+@app.route("/tri_sta_jag")
+def team_tri_sta_jag():
+    return render_template('teams/tri_sta_jag.html')
+
+@app.route("/mai_andy_mahdi")
+def team_mai_andy_mahdi():
+    return render_template('teams/mai_andy_mahdi.html')
+
+@app.route("/nic_ridhima_anvi")
+def nic_ridhima_anvi():
+    return render_template('teams/nic_ridhima_anvi.html')
+
+@app.route("/eddie_syn_ved")
+def team_E_S_V():
+    return render_template('teams/eddie_syn_ved.html')
