@@ -24,6 +24,10 @@ def team_arm_phil_dyl():
 def cohort_2024():
     return render_template('students_2024.html')
 
+@app.route("/2025")
+def cohort_2025():
+    return render_template('students_2025.html')
+
 @app.route("/shane_rashida_anthony")
 def team_shane_rashida_anthony():
     return render_template('teams/shane_rashida_anthony.html')
