@@ -160,6 +160,10 @@ def team_evgin_joshiro_michael():
 def team_jlp():
     return render_template('teams/julian_luis_pranathi.html')
 
+@app.route("/amir_luis_austin")
+def team_amir_luis_austin():
+    return render_template('teams/amir_luis_austin.html')
+    
 @app.route("/xiaotian_adrian")
 def team_xiaotian_adrian():
     return render_template('teams/xiaotian_adrian.html')
