@@ -156,6 +156,10 @@ def team_jin_allison_saad():
 def team_brian_jia_honghao():
     return render_template('teams/brian_jia_honghao.html')
 
+@app.route("/pramodya_sherman")
+def team_pramodya_sherman():
+    return render_template('teams/pramo_sher.html')
+
 @app.route("/team_CKL")
 def team_chynna_kyongsu_lizzy():
     return render_template('teams/team_CKL.html')
