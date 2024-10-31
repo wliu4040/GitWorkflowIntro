@@ -160,6 +160,10 @@ def team_jin_allison_saad():
 def team_brian_jia_honghao():
     return render_template('teams/brian_jia_honghao.html')
 
+@app.route("/arthur_daniel_adrian")
+def team_arthur_daniel_adrian():
+    return render_template('teams/arthur_daniel_adrian.html')
+
 @app.route("/pramodya_sherman")
 def team_pramodya_sherman():
     return render_template('teams/pramo_sher.html')
