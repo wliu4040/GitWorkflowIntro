@@ -124,6 +124,26 @@ def team_nick_val():
 def team_luke_noah_maya():
     return render_template('teams/luke_noah_maya.html')
 
+@app.route("/team_7")
+def team_7():
+    return render_template('teams/team_7.html')
+  
+@app.route("/team29")
+def team29():
+    return render_template('teams/team29.html')
+
+@app.route("/jesus_tien_jaehoon")
+def team_jesus_tien_jaehoon():
+    return render_template('teams/jesus_tien_jaehoon.html')
+
+@app.route("/team_5")
+def team_5():
+    return render_template('teams/team_5.html')
+
+@app.route("/durle_emily")
+def team_durle_emily():
+    return render_template('teams/durle_emily.html')
+
 @app.route("/chey_serg_ted")
 def team_chey_serg_ted():
     return render_template('teams/chey_serg_ted.html')
@@ -135,6 +155,10 @@ def team_jin_allison_saad():
 @app.route("/brian_jia_honghao")
 def team_brian_jia_honghao():
     return render_template('teams/brian_jia_honghao.html')
+
+@app.route("/pramodya_sherman")
+def team_pramodya_sherman():
+    return render_template('teams/pramo_sher.html')
 
 @app.route("/team_CKL")
 def team_chynna_kyongsu_lizzy():
