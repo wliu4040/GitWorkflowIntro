@@ -277,3 +277,6 @@ def team_abdel_austin_chika():
 def team_evan_jared_keith_xuan():
     return render_template('teams/evan_jared_keith_xuan.html')
 
+@app.route("/mia_victor")
+def team_mia_victor():
+    return render_template('teams/mia_victor.html')
