@@ -277,3 +277,6 @@ def team_abdel_austin_chika():
 def team_evan_jared_keith_xuan():
     return render_template('teams/evan_jared_keith_xuan.html')
 
+@app.route("/edu_igo_jac")
+def team_edu_igo_jac():
+    return render_template('teams/edu_igo_jac.html')
