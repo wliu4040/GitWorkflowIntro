@@ -24,6 +24,10 @@ def team_arm_phil_dyl():
 def cohort_2024():
     return render_template('students_2024.html')
 
+@app.route("/teamASC")
+def teamASC():
+    return render_template('teams/teamASC.html')
+
 @app.route("/2025")
 def cohort_2025():
     return render_template('students_2025.html')
@@ -124,6 +128,22 @@ def team_nick_val():
 def team_luke_noah_maya():
     return render_template('teams/luke_noah_maya.html')
 
+@app.route("/team_28")
+def team_28():
+    return render_template('teams/team_28.html')
+  
+@app.route("/team_tony_bryan_julian")
+def team_tony_bryan_julian():
+    return render_template('teams/team_tony_bryan_julian.html')
+  
+@app.route("/team_23")
+def team_23():
+    return render_template('teams/team_23.html')
+
+@app.route("/team_7")
+def team_7():
+    return render_template('teams/team_7.html')
+  
 @app.route("/team29")
 def team29():
     return render_template('teams/team29.html')
@@ -151,6 +171,18 @@ def team_jin_allison_saad():
 @app.route("/brian_jia_honghao")
 def team_brian_jia_honghao():
     return render_template('teams/brian_jia_honghao.html')
+
+@app.route("/team_isa_bro_ben")
+def team_isa_bro_ben():
+    return render_template('teams/team_isa_bro_ben.html')
+
+@app.route("/arthur_daniel_adrian")
+def team_arthur_daniel_adrian():
+    return render_template('teams/arthur_daniel_adrian.html')
+
+@app.route("/pramodya_sherman")
+def team_pramodya_sherman():
+    return render_template('teams/pramo_sher.html')
 
 @app.route("/team_CKL")
 def team_chynna_kyongsu_lizzy():
@@ -235,3 +267,24 @@ def nic_ridhima_anvi():
 @app.route("/eddie_syn_ved")
 def team_E_S_V():
     return render_template('teams/eddie_syn_ved.html')
+
+
+@app.route("/abdel_austin_chika")
+def team_abdel_austin_chika():
+    return render_template('teams/abdel_austin_chika.html')
+
+@app.route("/evan_jared_keith_xuan")
+def team_evan_jared_keith_xuan():
+    return render_template('teams/evan_jared_keith_xuan.html')
+
+@app.route("/edu_igo_jac")
+def team_edu_igo_jac():
+    return render_template('teams/edu_igo_jac.html')
+
+@app.route("/bo_kevin_miller")
+def team_bo_kevin_miller():
+    return render_template('teams/bo_kevin_miller.html')
+
+@app.route("/tyler_shubham_mikaella")
+def team_tyler_shubham_mikaella():
+    return render_template('teams/tyler_shubham_mikaella.html')
