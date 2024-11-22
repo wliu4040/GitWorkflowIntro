@@ -281,3 +281,14 @@ def team_evan_jared_keith_xuan():
 def teamAhh():
     return render_template('teams/teamAhh.html')
 
+@app.route("/edu_igo_jac")
+def team_edu_igo_jac():
+    return render_template('teams/edu_igo_jac.html')
+
+@app.route("/bo_kevin_miller")
+def team_bo_kevin_miller():
+    return render_template('teams/bo_kevin_miller.html')
+
+@app.route("/tyler_shubham_mikaella")
+def team_tyler_shubham_mikaella():
+    return render_template('teams/tyler_shubham_mikaella.html')
