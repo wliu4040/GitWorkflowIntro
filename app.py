@@ -267,3 +267,41 @@ def nic_ridhima_anvi():
 @app.route("/eddie_syn_ved")
 def team_E_S_V():
     return render_template('teams/eddie_syn_ved.html')
+
+
+@app.route("/abdel_austin_chika")
+def team_abdel_austin_chika():
+    return render_template('teams/abdel_austin_chika.html')
+
+@app.route("/evan_jared_keith_xuan")
+def team_evan_jared_keith_xuan():
+    return render_template('teams/evan_jared_keith_xuan.html')
+
+@app.route("/rav")
+def team_regina_andre_vansh():
+    return render_template('teams/team_regina_andre_vansh.html')
+
+@app.route("/mia_victor_alec")
+def team_mia_victor_alec():
+    return render_template('teams/mia_victor_alec.html')
+
+@app.route("/michael_brette_joshua_krishneet")
+def team_michael_brette_joshua_krishneet():
+    return render_template('teams/michael_brette_joshua_krishneet.html')
+  
+@app.route("/teamAhh")
+def teamAhh():
+    return render_template('teams/teamAhh.html')
+
+@app.route("/edu_igo_jac")
+def team_edu_igo_jac():
+    return render_template('teams/edu_igo_jac.html')
+
+@app.route("/bo_kevin_miller")
+def team_bo_kevin_miller():
+    return render_template('teams/bo_kevin_miller.html')
+
+@app.route("/tyler_shubham_mikaella")
+def team_tyler_shubham_mikaella():
+    return render_template('teams/tyler_shubham_mikaella.html')
+
