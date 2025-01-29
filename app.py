@@ -32,6 +32,10 @@ def teamASC():
 def cohort_2025():
     return render_template('students_2025.html')
 
+@app.route("/agam_asher_jiayi")
+def team_agam_asher_jiayi():
+    return render_template('teams/agam_asher_jiayi.html')
+
 @app.route("/shane_rashida_anthony")
 def team_shane_rashida_anthony():
     return render_template('teams/shane_rashida_anthony.html')
