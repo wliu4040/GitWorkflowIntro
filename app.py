@@ -309,6 +309,10 @@ def team_bo_kevin_miller():
 def team_tyler_shubham_mikaella():
     return render_template('teams/tyler_shubham_mikaella.html')
 
+@app.route("/microinternship-c1")
+def team_johnny_brent_drake():
+    return render_template('teams/microinternship-c1.html')
+
 @app.route("/ahmet-khang-aizen")
 def team_ahmet_khang_aizen():
     return render_template('teams/ahmet-khang-aizen.html')
