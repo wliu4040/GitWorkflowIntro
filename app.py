@@ -32,6 +32,10 @@ def teamASC():
 def cohort_2025():
     return render_template('students_2025.html')
 
+@app.route("/agam_asher_jiayi")
+def team_agam_asher_jiayi():
+    return render_template('teams/agam_asher_jiayi.html')
+
 @app.route("/shane_rashida_anthony")
 def team_shane_rashida_anthony():
     return render_template('teams/shane_rashida_anthony.html')
@@ -308,3 +312,7 @@ def team_tyler_shubham_mikaella():
 @app.route("/microinternship-c1")
 def team_johnny_brent_drake():
     return render_template('teams/microinternship-c1.html')
+
+@app.route("/ahmet-khang-aizen")
+def team_ahmet_khang_aizen():
+    return render_template('teams/ahmet-khang-aizen.html')
